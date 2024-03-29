@@ -1,0 +1,30 @@
+.dropdown {
+    margin-right: 30px;
+}
+
+.navbar {
+    background-color: #000088 !important;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: 900;
+}
+
+.fas {
+    color: white;
+}
+
+.card {
+    width: 224px;
+    margin: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards p {
+    margin-bottom: 0;
+}
