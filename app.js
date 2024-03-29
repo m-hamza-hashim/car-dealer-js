@@ -1,3 +1,4 @@
+// data 
 var cars = {
     honda: {
         civic: {
@@ -11,6 +12,7 @@ var cars = {
         },
         city: {
             name: "Honda City",
+            img: "images/city.jpg",
             year: 2021,
             price: 1800000,
             colors: ["blue", "silver", "gray"],
@@ -19,6 +21,7 @@ var cars = {
         },
         crv: {
             name: "Honda CR-V",
+            img: "images/cr-v.jpg",
             year: 2020,
             price: 2500000,
             colors: ["green", "brown", "beige"],
@@ -27,6 +30,7 @@ var cars = {
         },
         accord: {
             name: "Honda Accord",
+            img: "images/accord.jpg",
             year: 2019,
             price: 3000000,
             colors: ["white", "black", "silver"],
@@ -35,6 +39,7 @@ var cars = {
         },
         jazz: {
             name: "Honda Jazz",
+            img: "images/jazz.png",
             year: 2023,
             price: 1700000,
             colors: ["yellow", "orange", "white"],
@@ -45,6 +50,7 @@ var cars = {
     toyota: {
         camry: {
             name: "Toyota Camry",
+            img: "images/camry.jpg",
             year: 2022,
             price: 2200000,
             colors: ["blue", "black", "silver"],
@@ -53,6 +59,7 @@ var cars = {
         },
         corolla: {
             name: "Toyota Corolla",
+            img: "images/corolla.jpg",
             year: 2021,
             price: 1900000,
             colors: ["red", "white", "gray"],
@@ -61,6 +68,7 @@ var cars = {
         },
         rav4: {
             name: "Toyota RAV4",
+            img: "images/Rav_4.jpg",
             year: 2020,
             price: 2600000,
             colors: ["green", "blue", "black"],
@@ -69,6 +77,7 @@ var cars = {
         },
         yaris: {
             name: "Toyota Yaris",
+            img: "images/yarris.jpg",
             year: 2023,
             price: 1500000,
             colors: ["silver", "white", "red"],
@@ -77,6 +86,7 @@ var cars = {
         },
         hilux: {
             name: "Toyota Hilux",
+            img: "images/hilux.jpg",
             year: 2021,
             price: 2800000,
             colors: ["black", "white", "gray"],
@@ -87,6 +97,7 @@ var cars = {
     ford: {
         mustang: {
             name: "Ford Mustang",
+            img: "images/mustang.jpg",
             year: 2022,
             price: 3500000,
             colors: ["red", "black", "yellow"],
@@ -95,6 +106,7 @@ var cars = {
         },
         focus: {
             name: "Ford Focus",
+            img: "images/focus.jpg",
             year: 2021,
             price: 2000000,
             colors: ["blue", "silver", "white"],
@@ -103,6 +115,7 @@ var cars = {
         },
         escape: {
             name: "Ford Escape",
+            img: "images/escape.webp",
             year: 2020,
             price: 2700000,
             colors: ["green", "gray", "black"],
@@ -111,6 +124,7 @@ var cars = {
         },
         ranger: {
             name: "Ford Ranger",
+            img: "images/ranger.jpg",
             year: 2023,
             price: 3100000,
             colors: ["brown", "white", "silver"],
@@ -119,6 +133,7 @@ var cars = {
         },
         explorer: {
             name: "Ford Explorer",
+            img: "images/explorer.webp",
             year: 2022,
             price: 3800000,
             colors: ["black", "blue", "gray"],
@@ -129,6 +144,7 @@ var cars = {
     bmw: {
         series3: {
             name: "BMW 3 Series",
+            img: "images/series 3.webp",
             year: 2022,
             price: 4000000,
             colors: ["black", "white", "gray"],
@@ -137,6 +153,7 @@ var cars = {
         },
         series5: {
             name: "BMW 5 Series",
+            img: "images/series5.jpg",
             year: 2021,
             price: 5000000,
             colors: ["blue", "black", "silver"],
@@ -145,6 +162,7 @@ var cars = {
         },
         x3: {
             name: "BMW X3",
+            img: "images/x3.jpg",
             year: 2020,
             price: 4500000,
             colors: ["green", "white", "gray"],
@@ -153,6 +171,7 @@ var cars = {
         },
         x5: {
             name: "BMW X5",
+            img: "images/x5.jpg",
             year: 2023,
             price: 6000000,
             colors: ["black", "blue", "white"],
@@ -161,6 +180,7 @@ var cars = {
         },
         i3: {
             name: "BMW i3",
+            img: "images/i3.jpg",
             year: 2021,
             price: 3500000,
             colors: ["white", "silver", "blue"],
@@ -171,6 +191,7 @@ var cars = {
     audi: {
         a4: {
             name: "Audi A4",
+            img: "images/a4.jpg",
             year: 2022,
             price: 4200000,
             colors: ["gray", "black", "white"],
@@ -179,6 +200,7 @@ var cars = {
         },
         a6: {
             name: "Audi A6",
+            img: "images/a6.jpg",
             year: 2021,
             price: 5500000,
             colors: ["blue", "black", "silver"],
@@ -187,6 +209,7 @@ var cars = {
         },
         q5: {
             name: "Audi Q5",
+            img: "images/q5.jpg",
             year: 2020,
             price: 4800000,
             colors: ["green", "white", "gray"],
@@ -196,6 +219,7 @@ var cars = {
         q7: {
             name: "Audi Q7",
             year: 2023,
+            img: "images/q7.webp",
             price: 6500000,
             colors: ["black", "blue", "white"],
             doors: 4,
@@ -203,6 +227,7 @@ var cars = {
         },
         tt: {
             name: "Audi TT",
+            img: "images/tt.jpg",
             year: 2021,
             price: 3800000,
             colors: ["white", "silver", "blue"],
@@ -212,6 +237,10 @@ var cars = {
     }
 };
 
+// navbar 
+
+
+// cards
 var dropdowns = document.getElementsByClassName("dropdown-menu"), cards = document.getElementsByClassName("cards")[0];
 
 for (var key1 in cars) {
@@ -226,13 +255,21 @@ for (var key1 in cars) {
         <div class="card-body">
           <h5 class="card-title">${cars[key1][key2].name.toUpperCase()}</h5>
           <p class="card-text">Year: ${cars[key1][key2].year}</p>
-          <p class="card-text">$ ${cars[key1][key2].price}</p>
-          <p class="card-text">Colors: ${cars[key1][key2].colors}</p>
+          <p class="card-text">$${cars[key1][key2].price}</p>
+          <div class="colors" style="display: flex;">
+    <div style="height: 20px; width: 20px; border: 1px solid ${cars[key1][key2].colors[0]}; background-color: ${cars[key1][key2].colors[0]}; border-radius: 10px; margin-right: 7px;"></div>
+    <div style="height: 20px; width: 20px; border: 1px solid ${cars[key1][key2].colors[1]}; background-color: ${cars[key1][key2].colors[1]}; border-radius: 10px; margin-right: 7px;"></div>
+    <div style="height: 20px; width: 20px; margin-right: 7px; border: 1px solid ${cars[key1][key2].colors[2]}; border-radius: 10px; background-color: ${cars[key1][key2].colors[2]};"></div>
+</div>
           <p class="card-text">Doors: ${cars[key1][key2].doors}</p>
           <p class="card-text">Wheels: ${cars[key1][key2].wheels}</p>
         </div>
       </div>`
     }
 }
+
+
+
+
 
 

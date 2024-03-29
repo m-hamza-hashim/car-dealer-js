@@ -1,5 +1,11 @@
+/* navbar  */
 .dropdown {
-    margin-right: 30px;
+    margin-left: 20px !important;
+}
+
+.dropdown button {
+    background-color: white;
+    color: black;
 }
 
 .navbar {
@@ -15,6 +21,17 @@
     color: white;
 }
 
+@media only screen and (max-width: 609px) {
+    .container-fluid {
+        flex-direction: column !important;
+    }
+
+    .navbar-brand {
+        margin-bottom: 10px;
+    }
+    
+}
+/* cards  */
 .card {
     width: 224px;
     margin: 20px;
@@ -23,8 +40,17 @@
 .cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .cards p {
     margin-bottom: 0;
+}
+
+.cards img {
+    height: 206px;
+}
+
+.card-body {
+    background-color: #eff5ff;
 }
