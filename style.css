@@ -1,56 +1,83 @@
 /* navbar  */
-.dropdown {
-    margin-left: 20px !important;
-}
-
-.dropdown button {
-    background-color: white;
-    color: black;
-}
-
 .navbar {
-    background-color: #000088 !important;
+  background-color: #000088 !important;
 }
 
-.navbar-brand {
-    color: white;
-    font-weight: 900;
+.navbar .navbar-brand {
+  color: white;
+  font-weight: 900;
 }
 
-.fas {
-    color: white;
+.navbar .fas {
+  color: white;
+}
+
+.navbar .dropdowns {
+  display: flex;
+  column-gap: 15px;
+}
+
+.navbar select {
+  width: 145px;
+  height: 36px;
 }
 
 @media only screen and (max-width: 609px) {
-    .container-fluid {
-        flex-direction: column !important;
-    }
+  .container-fluid {
+    flex-direction: column !important;
+  }
 
-    .navbar-brand {
-        margin-bottom: 10px;
-    }
-    
+  .navbar .navbar-brand {
+    margin-bottom: 10px;
+  }
+
+  .navbar .dropdowns {
+    margin-bottom: 9px;
+    margin-left: 10px;
+  }
 }
+
 /* cards  */
-.card {
-    width: 224px;
-    margin: 20px;
+.cards .card {
+  width: 224px;
+  margin: 20px;
 }
 
 .cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .cards p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .cards img {
-    height: 206px;
+  height: 206px;
 }
 
-.card-body {
-    background-color: #eff5ff;
+.cards .card-body {
+  background-color: #eff5ff;
+}
+
+.cards .single-card {
+  width: 100vw;
+  margin-top: 35px;
+}
+
+.cards .img-box {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 527px) {
+  .cards .card {
+    width: 100vw;
+  }
+
+  .cards .bg-image {
+    display: flex;
+    justify-content: center;
+  }
 }

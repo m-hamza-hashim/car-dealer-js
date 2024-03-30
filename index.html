@@ -7,11 +7,11 @@
     <meta name="keywords" content="car dealer, javascript" />
     <meta name="robots" content="nofollow" />
     <meta http-equiv="author" content="M.Hamza Hashim" />
-    <title>Car Dealer | JS</title>
+    <title>Hamza's Car Deals | JS</title>
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <!-- Font Awesome -->
     <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
       rel="stylesheet"
     />
     <!-- Google Fonts -->
@@ -27,61 +27,31 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
   <body>
-<!-- navbar  -->
+    <!-- navbar  -->
     <nav class="navbar navbar-light bg-body-tertiary">
       <div class="container-fluid">
-        <!-- <div class="brand-name"> -->
-        <a class="navbar-brand">THE CAR DEALER</a>
-    <!-- </div> -->
-        <form class="d-flex input-group w-auto">
-          <div class="dropdown">
-            <button
-              class="btn btn-primary dropdown-toggle"
-              type="button"
-              id="dropdownMenuButton"
-              data-mdb-dropdown-init
-              data-mdb-ripple-init
-              aria-expanded="false"
-            >
-              Company
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </div>
-          <div class="dropdown">
-            <button
-              class="btn btn-primary dropdown-toggle"
-              type="button"
-              id="dropdownMenuButton"
-              data-mdb-dropdown-init
-              data-mdb-ripple-init
-              aria-expanded="false"
-            >
-              Model
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </div>
+        <a class="navbar-brand">HAMZA'S CAR DEALS</a>
+        <div class="dropdowns">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Select Brand</option>
+          </select>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Select Model</option>
+          </select>
           <span class="input-group-text border-0" id="search-addon">
             <i class="fas fa-search"></i>
           </span>
-        </form>
+        </div>
       </div>
     </nav>
 
     <!-- cards  -->
-<div class="cards"></div>
+    <div class="cards"></div>
 
     <!-- MDB -->
     <script
-    type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"
     ></script>
     <script src="app.js"></script>
   </body>
